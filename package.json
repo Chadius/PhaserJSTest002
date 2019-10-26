@@ -1,0 +1,31 @@
+{
+  "name": "phaserjstest002",
+  "version": "1.0.0",
+  "description": "Trying to get PhaserJS and Typescript working in WebStorm.",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chadius/PhaserJSTest002.git"
+  },
+  "keywords": [
+    "PhaserJS"
+  ],
+  "author": "Chad Serrant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chadius/PhaserJSTest002/issues"
+  },
+  "homepage": "https://github.com/Chadius/PhaserJSTest002#readme",
+  "devDependencies": {
+    "phaser": "^3.20.1"
+  },
+  "dependencies": {
+    "requirejs": "^2.3.6"
+  }
+}

@@ -2,12 +2,14 @@
   "name": "phaserjstest002",
   "version": "1.0.0",
   "description": "Trying to get PhaserJS and Typescript working in WebStorm.",
-  "main": "index.js",
+  "main": "index.html",
   "directories": {
     "doc": "doc"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development && webpack-dev-server --mode development",
+    "build": "webpack --mode production && webpack-dev-server --mode production"
   },
   "repository": {
     "type": "git",
@@ -23,9 +25,14 @@
   },
   "homepage": "https://github.com/Chadius/PhaserJSTest002#readme",
   "devDependencies": {
-    "phaser": "^3.20.1"
+    "expose-loader": "0.7.5",
+    "ts-loader": "6.0.4",
+    "typescript": "3.5.2",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "3.7.2"
   },
   "dependencies": {
-    "requirejs": "^2.3.6"
+    "phaser": "^3.20.1"
   }
 }
